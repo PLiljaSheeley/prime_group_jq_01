@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Group Fruit Project</title>
 
 		<meta name="description" content="Webpage">
 		<link href="stylesheet.css" rel="stylesheet">
@@ -10,10 +10,51 @@
 		<script src="jquery.min.js"></script>
 		<script src="script.js"></script>
 	</head>
-	
+
 	<body>
-		
-		
-		
+		<h1>Fruit Stand</h1>
+		<div id="cash">
+			User total cash: $<span id="totalCash"></span>
+		</div>
+		<div class="userDisplay">
+			<h2>User</h2>
+				<ul>
+
+				<li>
+					<img src="apple-icon.png" /> Apples: <span id="apples"></span>   Average purchase price: $<span id="avrApples"></span>
+				</li>
+				<li>
+					<img src="apricot-icon.png" /> Oranges: <span id="oranges"></span>    Average purchase price: $<span id="avrOranges"></span>
+				</li>
+				<li>
+					<img src="bananas-icon.png" /> Bananas: <span id="bananas"></span>    Average purchase price: $<span id="avrBananas"></span>
+				</li>
+				<li>
+					<img src="grape-icon.png" /> Grapes: <span id="grapes"></span>    Average purchase price: $<span id="avrGrapes"></span>
+				</li>
+				</ul>
+		</div>
+
+		<div class="fruitInfo">
+			<h2>Fruit</h2>
+			<ul>
+				<li>
+					Apple Price: $<span id="applePrice"></span>
+					<button id="buyApple">Buy Apple</button>
+				</li>
+				<li>
+					Orange Price: $<span id="orangePrice"></span>
+					<button id="buyOrange">Buy Orange</button>
+				</li>
+				<li>
+					Banana Price: $<span id="bananaPrice"></span>
+					<button id="buyBanana">Buy Banana</button>
+				</li>
+				<li>
+					Grape Price: $<span id="grapePrice"></span>
+					<button id="buyGrape">Buy Grape</button>
+				</li>
+			</ul>
+	</div>
 	</body>
 </html>
