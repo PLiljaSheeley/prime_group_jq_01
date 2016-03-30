@@ -51,3 +51,12 @@ img{
 span{
   padding-right: 15px;
 }
+button {
+  border: 1px solid black;
+  height: 35px;
+  width: 100px;
+  background-color: white;
+}
+button:hover {
+  background-color: rgb(170, 170, 170)
+}
